@@ -1,0 +1,104 @@
+{
+  "id": "a786f558-952f-47ef-bacb-852906e25708",
+  "version": "2.0",
+  "name": "naver search",
+  "url": "https://www.naver.com",
+  "tests": [{
+    "id": "a816d9a3-cc8e-42dc-9f13-bfcf19fe37ce",
+    "name": "test",
+    "commands": [{
+      "id": "35991b27-625a-44ab-a713-b1266436b6e8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73d19356-d755-4d1e-9eb8-9117ad26720f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1311x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6b2c38a-e7db-485f-819e-f36ecaad88dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='sform']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61630444-3ce3-47fa-8c16-e4ec98870eee",
+      "comment": "",
+      "command": "type",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='sform']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "검색테스트"
+    }, {
+      "id": "15109ca6-2bcd-407a-944a-307271a47d4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-btn",
+      "targets": [
+        ["id=search-btn", "id"],
+        ["css=#search-btn", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6941f72-ae80-4bd4-9186-91abe05914e3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,616)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d82ef03-3a6f-429a-acad-fcc430da2c68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=포털 검색에도 AI 추론 기능 접목된다…구글, 'AI 모드' 검색 테스트",
+      "targets": [
+        ["linkText=포털 검색에도 AI 추론 기능 접목된다…구글, 'AI 모드' 검색 테스트", "linkText"],
+        ["css=.bx:nth-child(1) .title_link", "css:finder"],
+        ["xpath=(//a[@onclick=\"return goOtherCR(this,'a=ugB_bsR*b.link&r=1&i=90000003_00000000000000341ABCA4EA&u='+urlencode(this.href));\"])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main_pack']/section[3]/div/ul/li/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://blog.naver.com/aipostkoreayhd/223786869994')])[2]", "xpath:href"],
+        ["xpath=//section[3]/div/ul/li/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win413",
+      "windowTimeout": 2000
+    }, {
+      "id": "c2c72e5e-62f0-417e-96ba-eb46e8fb77ae",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win413}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "92e7ea56-658a-4a61-8267-57482764995f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a816d9a3-cc8e-42dc-9f13-bfcf19fe37ce"]
+  }],
+  "urls": ["https://www.naver.com/"],
+  "plugins": []
+}

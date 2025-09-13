@@ -1,0 +1,255 @@
+{
+  "id": "be2360b2-0b1d-4e39-b22e-463cb31af1d0",
+  "version": "2.0",
+  "name": "msa_sample_application_test",
+  "url": "https://msa-sample.smk-p.ddns.net",
+  "tests": [{
+    "id": "7214e048-0b60-4be5-9e68-3a9b48dd9afe",
+    "name": "All Check",
+    "commands": [{
+      "id": "7a1fd86a-df86-406b-905a-80c93118bce6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc33ddf-b725-490d-b946-d2736506b494",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1844x1078",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "463d9d10-3625-4742-a545-33c857589ccd",
+      "comment": "",
+      "command": "click",
+      "target": "name=product_ids",
+      "targets": [
+        ["name=product_ids", "name"],
+        ["css=form > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='product_ids']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26bbe16-5adb-4589-8e77-ea8c06e85a08",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfa4784-c0ee-4bde-9773-3f5dbfd65978",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7fd195-83ea-4146-bc08-c63784b4f4cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f450591e-6c37-47ba-9b66-9182beff33c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@name='product_ids'])[2]", "xpath:attributes"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d7b7eb4-6f06-403b-9ccc-dd17acc3cc1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "238ec649-f0d3-4f4a-86c2-6e11b17125a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='product_ids'])[3]", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab4d0aa-30c1-4232-892b-4e8d411ee451",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ebd9ec9-cdd6-4f80-9c4e-9a14ef2b67a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@name='product_ids'])[2]", "xpath:attributes"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64edcd2f-a4ea-4607-a9d7-194aef79062b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1efdb22-18d3-42ac-b3b0-e9bc3557e629",
+      "comment": "",
+      "command": "click",
+      "target": "name=product_ids",
+      "targets": [
+        ["name=product_ids", "name"],
+        ["css=form > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='product_ids']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "824976ac-cc8a-4687-bb1d-0a5b8300c8c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'주문하기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20d59223-cc09-4c7b-a4c6-ce6a0846a6f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=app-name-input",
+      "targets": [
+        ["id=app-name-input", "id"],
+        ["css=#app-name-input", "css:finder"],
+        ["xpath=//input[@id='app-name-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b4f025-34e7-4618-ace7-4a514d10834f",
+      "comment": "",
+      "command": "type",
+      "target": "id=app-name-input",
+      "targets": [
+        ["id=app-name-input", "id"],
+        ["css=#app-name-input", "css:finder"],
+        ["xpath=//input[@id='app-name-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "smkoo-all-application"
+    }, {
+      "id": "8a7ae62e-b6bf-47de-9668-03538a6c9251",
+      "comment": "",
+      "command": "click",
+      "target": "id=release-message-input",
+      "targets": [
+        ["id=release-message-input", "id"],
+        ["css=#release-message-input", "css:finder"],
+        ["xpath=//input[@id='release-message-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa46fad2-f2c6-459d-b7ab-9aaae7c625ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=release-message-input",
+      "targets": [
+        ["id=release-message-input", "id"],
+        ["css=#release-message-input", "css:finder"],
+        ["xpath=//input[@id='release-message-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "v.1.0.selenium.test"
+    }, {
+      "id": "fc15854a-1f5a-4373-a33c-9dc526de9175",
+      "comment": "",
+      "command": "click",
+      "target": "id=release-btn",
+      "targets": [
+        ["id=release-btn", "id"],
+        ["css=#release-btn", "css:finder"],
+        ["xpath=//button[@id='release-btn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Release Mark 보내기')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0aa20e-11b0-4668-8c96-d6fb48a78657",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Release mark sent",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0266a6f8-75fc-4412-8e1c-800673796fc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(9)",
+      "targets": [
+        ["css=button:nth-child(9)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'에러 발생 테스트')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c2dc988-7831-4d93-9c93-585af15c4409",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7214e048-0b60-4be5-9e68-3a9b48dd9afe"]
+  }],
+  "urls": ["https://msa-sample.smk-p.ddns.net/"],
+  "plugins": []
+}
